@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container text-center bg-primary">
+        <div class="row">
+            <div class="col">
+                Mis libros
+            </div>
+            <div class="col flex-grow-1">
+                Inicio
+            </div>
+            <div class="col flex-grow-1">
+                Acerca de
+            </div>
+            <div class="col flex-grow-1">
+                Contacto
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img width="1520px" height="700px" src="./Img/1.jpg" class="d-block w-80 mx-auto" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./Img/2.jpg" class="d-block w-80 mx-auto" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./Img/3.jpg" class="d-block w-80 mx-auto" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <img src="./Img/A.jpg" alt="">
+                <h3>Libros 1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil odit repellat facilis quam
+                    sit placeat veniam architecto quas, deserunt repudiandae? Reprehenderit eum praesentium fugit
+                    deserunt assumenda culpa eius doloribus?</p>
+                <button type="button" class="btn btn-primary">Leer mas</button>
+            </div>
+            <div class="col">
+                <img src="./Img/B.jpg" alt="">
+                <h3>Libros 2</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores ex magnam, unde fugit amet
+                    accusamus? Laudantium ab soluta eos voluptas perferendis assumenda aperiam magni quasi, placeat rem
+                    cumque incidunt omnis!</p>
+                <button type="button" class="btn btn-primary">Leer mas</button>
+            </div>
+            <div class="col">
+                <img src="./Img/C.jpg" alt="">
+                <h3>Libros 3</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro molestiae nam a ullam
+                    iusto dicta quo et esse vero adipisci odio dolore, voluptates aliquam sit nemo, eos perspiciatis
+                    totam.</p>
+                <button type="button" class="btn btn-primary">Leer mas</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="formulario">
+        
+        <h4>Contactanos</h4>
+
+        <p>Nombre: <input type="text" name="nombre"></p>
+
+        <p>Correo electronico: <input type="text" name="apellidos" size="40"></p>
+
+        <p>
+
+            Deja un mensaje:<br>
+        
+            <textarea name="mensaje"></textarea>
+        
+          </p>
+
+          <button type="button" class="btn btn-primary">Enviar</button>
+    </div>
+
+    <br>
+    <br>
+
+    <footer>
+        <h5> 2023 Developed by Leo Salmeron. Todos los derechos reservados</h5>
+    </footer>
+
+    
+
+</body>
+
+</html>
